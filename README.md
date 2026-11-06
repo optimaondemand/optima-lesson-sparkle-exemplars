@@ -1,6 +1,6 @@
 # optima-lesson-sparkle exemplars
 
-Eleven reference lessons for the `optima-lesson-sparkle` skill. They are **byte-for-byte copies** of the
+Eleven reference lessons for the `optima-lesson-sparkle` skill. They are exemplars to look up and check work against. The skill applies to any Optima course in any subject or grade, including courses not yet designed; these three courses are examples, not the only ones. They are **byte-for-byte copies** of the
 W19 lessons in `optimaondemand/optima-pilot-samples` (commit `f17a4367a6fb6a4e4530aa05ef39f7a691db3adf`),
 kept here so the skill has a stable reference that does not change when the samples repo does.
 

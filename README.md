@@ -4,7 +4,7 @@ Fifteen reference lessons for the `optima-history-lesson-sparkle` skill. They ar
 W19 lessons in `optimaondemand/optima-pilot-samples` (commit `f17a4367a6fb6a4e4530aa05ef39f7a691db3adf`),
 kept here so the skill has a stable reference that does not change when the samples repo does.
 
-**High school exemplars.** `hs-10th-us-history-w19/` is the first high school (Rhetoric School band, grades 9 to 12) set. It was added later, as byte-for-byte copies of `10th-us-history-w19/` in `optima-pilot-samples` at commit `56bfc487d33e4b099516cbe6646e2043292383e2`. These lessons use the high school tutor, Mr. Magister (`img/magister.jpg`), and their pilot samples show how a lesson is written for high school. Use them in place of the middle school exemplars when the course is high school.
+**High school exemplars.** `hs-10th-us-history-w19/` is the first high school (Rhetoric School band, grades 9 to 12) set. It was added later, as byte-for-byte copies of `10th-us-history-w19/` in `optima-pilot-samples` at commit `56bfc487d33e4b099516cbe6646e2043292383e2`. These lessons use the high school tutor, Mr. Magister (`img/magister.jpg`), and their pilot samples show how a lesson is written for high school. They differ from the middle school exemplars in build as well as in tutor; the note at the end of this file lists how.
 
 Do not edit these files. To add or replace an exemplar, add a new one and update the table below.
 

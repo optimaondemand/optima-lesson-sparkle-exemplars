@@ -1,8 +1,10 @@
 # optima-lesson-sparkle exemplars
 
-Eleven reference lessons for the `optima-history-lesson-sparkle` skill. They are exemplars to look up and check work against. The skill applies to any Optima course in any subject or grade, including courses not yet designed; these three courses are examples, not the only ones. They are **byte-for-byte copies** of the
+Fifteen reference lessons for the `optima-history-lesson-sparkle` skill. They are exemplars to look up and check work against. The skill applies to any Optima course in any subject or grade, including courses not yet designed; these courses are examples, not the only ones. They are **byte-for-byte copies** of the
 W19 lessons in `optimaondemand/optima-pilot-samples` (commit `f17a4367a6fb6a4e4530aa05ef39f7a691db3adf`),
 kept here so the skill has a stable reference that does not change when the samples repo does.
+
+**High school exemplars.** `hs-10th-us-history-w19/` is the first high school (Rhetoric School band, grades 9 to 12) set. It was added later, as byte-for-byte copies of `10th-us-history-w19/` in `optima-pilot-samples` at commit `56bfc487d33e4b099516cbe6646e2043292383e2`. These lessons use the high school tutor, Mr. Magister (`img/magister.jpg`), and their pilot samples show how a lesson is written for high school. Use them in place of the middle school exemplars when the course is high school.
 
 Do not edit these files. To add or replace an exemplar, add a new one and update the table below.
 
@@ -11,6 +13,7 @@ Do not edit these files. To add or replace an exemplar, add a new one and update
 | `6th-world-history-w19/` | 6th M/J World History | L1 opening, survey; L2 middle, source; L3 middle, survey; L4 final, source |
 | `7th-texas-history-w19/` | 7th Texas History | L1 opening, survey; L2 middle, survey; L3 final, source |
 | `7th-us-history-w19/` | 7th U.S. History | L1 opening, survey; L2 middle, source; L3 middle, survey; L4 final, source |
+| `hs-10th-us-history-w19/` | **HIGH SCHOOL**: 10th Grade U.S. History, Reconstruction to Present (week 19: Wilson, the League of Nations, the Red Scare) | L1 opening, survey (`l1-the-league-rejected`); L2 middle, source (`l2-lodge-against-the-league`); L3 middle, survey (`l3-red-scare-and-the-closing-door`); L4 final, source (`l4-palmer-case-against-the-reds`) |
 
 Each folder also holds that course's `audio/` and `img/` files, so the relative paths in the lessons resolve.
 
@@ -39,5 +42,11 @@ next to its exemplar (`scripts/exemplar.py original <lesson>`).
 | `us:2` Hamilton and Jefferson, the Bank | `mjushistory-lessons-spring` / `weeks/week-19/primary-source-1.html` | course 289 |
 | `us:3` Adams and France | `mjushistory-lessons-spring` / `weeks/week-19/lesson-19-2.html` | course 289 |
 | `us:4` The Sedition Act | `mjushistory-lessons-spring` / `weeks/week-19/primary-source-2.html` | course 289 |
+| `hs-10th-us-history-w19/l1-...` The League Rejected | `10USHistoryRec-Present-Spring` / `week-19/lesson-1.html` | Canvas shell id not recorded |
+| `hs-10th-us-history-w19/l2-...` Lodge Against the League | `10USHistoryRec-Present-Spring` / `week-19/primary-source-1.html` | Canvas shell id not recorded |
+| `hs-10th-us-history-w19/l3-...` Red Scare and the Closing Door | `10USHistoryRec-Present-Spring` / `week-19/lesson-2.html` | Canvas shell id not recorded |
+| `hs-10th-us-history-w19/l4-...` Palmer, the Case Against the Reds | `10USHistoryRec-Present-Spring` / `week-19/primary-source-2.html` | Canvas shell id not recorded |
 
 Originals are compared as published in each repo's `main`, which may be newer than the version the exemplars were made from.
+
+**Note:** `scripts/exemplar.py` in the skill does not yet know the `hs-10th-us-history-w19/` folder (its course keys are `wh`, `tx`, `us`). Until a key is added, pass a path inside the repo, for example `hs-10th-us-history-w19/l1-the-league-rejected.html`.

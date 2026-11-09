@@ -49,4 +49,4 @@ next to its exemplar (`scripts/exemplar.py original <lesson>`).
 
 Originals are compared as published in each repo's `main`, which may be newer than the version the exemplars were made from.
 
-**Note:** `scripts/exemplar.py` in the skill does not yet know the `hs-10th-us-history-w19/` folder (its course keys are `wh`, `tx`, `us`). Until a key is added, pass a path inside the repo, for example `hs-10th-us-history-w19/l1-the-league-rejected.html`.
+**Note:** the skill's `scripts/exemplar.py` knows this folder as `hs:1` to `hs:4`. For these four pages `list`, `original`, `show head`, `show css`, `show js` and the core CSS comparison work. `outline`, `show config`, `show verdict` and `compare`'s structure checks do not yet, because the high school pages are a different build (one script block, a "US History" kit, no `const LESSON` config).
